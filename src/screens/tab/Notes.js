@@ -16,6 +16,7 @@ import AppBackground from '../../components/AppBackground';
 import { useStore } from '../../store/context';
 import { launchImageLibrary } from 'react-native-image-picker';
 import DropDownPicker from 'react-native-dropdown-picker';
+import AsyncStorage from '@react-native-async-storage/async-storage';
 
 const { height } = Dimensions.get('window');
 
